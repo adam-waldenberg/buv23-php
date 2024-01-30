@@ -1,0 +1,10 @@
+<?php
+spl_autoload_register(function($class){
+$path=str_replace('\\','/',$class).'.php';
+if(file_exists("model".DIRECTORY_SEPARATOR.$path)){
+include"model".DIRECTORY_SEPARATOR.$path;
+}elseif(file_exists("view".DIRECTORY_SEPARATOR.$path)){
+include"view".DIRECTORY_SEPARATOR.$path;
+}
+});
+?>
