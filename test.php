@@ -34,13 +34,15 @@ class Motorcycle extends Vehicle {
     }
 }
 
+
+//TEST
 // Skapa en instans av bilen
 $car = new Car("Toyota");
 echo $car->start() . "<br>";
 echo $car->stop() . "<br>";
 
-// Skapa en instans av motorcykeln
-$motorcycle = new Motorcycle("Harley Davidson");
+//TEST
+//$motorcycle = new Motorcycle("Harley Davidson");
 echo $motorcycle->start() . "<br>";
 echo $motorcycle->stop() . "<br>";
 
