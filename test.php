@@ -44,4 +44,8 @@ $motorcycle = new Motorcycle("Harley Davidson");
 echo $motorcycle->start() . "<br>";
 echo $motorcycle->stop() . "<br>";
 
+// Skapa en instans av bilen HANI 
+$car = new Car("Toyota");
+echo $car->start() . "<br>";
+echo $car->stop() . "<br>";
 ?>
